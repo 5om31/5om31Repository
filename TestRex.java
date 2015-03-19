@@ -1,0 +1,11 @@
+
+public class TestRex {
+
+	
+	public static void main(String[] args) {
+		String value = "1e2a5aa6a76ca958347355fe8b8d946fc742252081dc20e40b113484b4b99a22ef87d6be858a88c98fb8bab3b290c1dbfa20d8a652ee051759dbbd77d5c8bb563270d0db8e0d8d2a7d8bd206b7cec9e5add682335cf32dc754d1f47c7c4af5920b0b474baa12a629eec6a496a5ec73c0df1563f5b89024c64a97c64681decb9e 5719e33f0a0177cd7b7b91fad45f9d0338cb8b72e1b904ed2d16e8e288b8c48d728ad5e63518e8b5effe0aa99a2696a432be41baee6b8d3f8fa56bb44c75c90aeb0c93d05aa1fb41a6f154f414c179ce6a5b2d940440f143bc282801154c2bffb815f496a6e19386524417bcc03cc0875411e8c9fcad6b932a74fca1af4c1267";
+		String regex = "^[a-z0-9]+$";
+		
+		System.out.println(value.matches(regex));
+	}
+}
